@@ -441,3 +441,11 @@ if(cluster.isPrimary && modo =="CLUSTER" || modoCluster && cluster.isPrimary){
         }
     })
 }
+
+//para correr lo de autocanon
+//consola 1
+//0x server.js
+
+//consola 2 
+//node benchmark.js
+
