@@ -429,7 +429,7 @@ if(cluster.isPrimary && modo =="CLUSTER" || modoCluster && cluster.isPrimary){
         logger.warn(`Ruta ${method} ${url} no implementada`)
         res.send(`Ruta ${method} ${url} no implementada`)
     })
-    const PORT = parseInt(process.argv[2]) || 8080
+    const PORT = process.env.PORT || parseInt(process.argv[2]) || 8080
 
     httpServer.listen(PORT, err => {
         if(err){
