@@ -1,4 +1,4 @@
-cdm
+cmd
 heroku login
 cd ruta del proyecto
 git init
